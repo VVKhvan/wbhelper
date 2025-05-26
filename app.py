@@ -10,7 +10,7 @@ from telegram.ext import ApplicationBuilder, MessageHandler, CommandHandler, Con
 processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
 model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base")
 
-TOKEN = 7679013213:AAE3D5_P4HDtwQhlc7oUXNwJiSzZICE4ht8
+TOKEN = "7679013213:AAE3D5_P4HDtwQhlc7oUXNwJiSzZICE4ht8"
 
 logging.basicConfig(level=logging.INFO)
 
